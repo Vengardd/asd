@@ -250,6 +250,9 @@ namespace WebApplication2.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long>("NumberOfSold")
+                        .HasColumnType("bigint");
+
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");
 

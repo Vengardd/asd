@@ -8964,19 +8964,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vengard\\.nuget\\packages\\": {}
+    "C:\\Users\\Lusia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\VisualStudioWorkspace\\Nowy folder (3)\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+      "projectUniqueName": "C:\\Users\\Lusia\\source\\repos\\asd\\WebApplication2\\WebApplication2.csproj",
       "projectName": "WebApplication2",
-      "projectPath": "G:\\VisualStudioWorkspace\\Nowy folder (3)\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
-      "packagesPath": "C:\\Users\\Vengard\\.nuget\\packages\\",
-      "outputPath": "G:\\VisualStudioWorkspace\\Nowy folder (3)\\WebApplication2\\WebApplication2\\obj\\",
+      "projectPath": "C:\\Users\\Lusia\\source\\repos\\asd\\WebApplication2\\WebApplication2.csproj",
+      "packagesPath": "C:\\Users\\Lusia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lusia\\source\\repos\\asd\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vengard\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lusia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
