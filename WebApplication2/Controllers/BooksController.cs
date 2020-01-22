@@ -21,10 +21,17 @@ namespace WebApplication2.Controllers
         }
 
         // GET: Books
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(String searchString)
         {
-            var applicationDbContext = _context.Book.Include(b => b.Author);
-            return View(await applicationDbContext.ToListAsync());
+            var books = from m in _context.Book
+                        select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                books = books.Where(s => s.Name.Contains(searchString));
+            }
+
+            return View(books);
         }
 
         // GET: Books/Details/5

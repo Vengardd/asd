@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 
 namespace WebApplication2.TagHelpers
 {
-    public class ExampleTagHelper : TagHelper
+    public class AuthorTagHelper : TagHelper
     {
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
-            output.Content.SetContent("Przykladowy tag helper");
+            output.Content.SetContent("Autor - Cezary Krawczyk");
         }
     }
 }
